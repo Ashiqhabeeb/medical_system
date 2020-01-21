@@ -1,0 +1,113 @@
+.module{
+	
+	background-image:url("../img/logo.png");
+	
+}
+.bor{
+	
+border:1px solid red;
+}
+
+.container-element{
+	color:white;
+	text-align:center;
+	font-weight:bold;
+}
+
+.container-element2{
+	
+	height:400px;
+	margin:0px;
+	
+	
+	
+}
+
+.container-element3{
+	
+height:100px;
+margin-top:0px;
+
+	
+
+}
+
+.batch-element{
+	
+	height:50px;
+	width:100px;
+	padding:10px;
+	background-color:rgba(0,0,0,0.7);
+	margin-left:80px;
+	border-radius:20px;
+	
+}
+.batch-element a {
+	color:white;
+	text-decoration:none;
+}
+.batch-element1{
+	margin:100px;
+}
+@media (max-width:500px)
+{
+	.container-element3{
+		display:block;
+		margin-left:0px
+	}
+}
+
+.submenu{
+	display:none;
+	z-index:1;
+}
+.submenu ul{
+	list-style-type:none;
+	text-align:center;
+}
+.menu{
+	position:absolute;
+	margin-top:100px;
+}
+.menu ul{
+	list-style-type:none;
+}
+.menu ul li{
+	list-style-type:none;
+	padding:20px;
+	width:202px;
+	margin-left:-50px;
+	text-align:center;
+}
+.menu ul li:hover{
+	background-color:rgba(0,0,0,0.7);
+}
+.menu ul li a{
+	text-decoration:none;
+}
+.menu ul li:hover .submenu{
+	display:block;
+	position:absolute;
+	margin-top:-30px;
+	margin-left:182px;
+	background-color:blue;
+	width:150px;
+	height:150px;
+
+}
+.menu ul li:hover .submenu ul{
+	margin-top:-10px;
+	background-color:#0235eb;
+	position:absolute;
+}
+
+.menu ul li:hover .submenu ul li a{
+color:white;
+}
+.menu ul li:hover .submenu ul li {
+padding:20px;
+}
+
+.baseimg{
+	background-size:cover;
+}
